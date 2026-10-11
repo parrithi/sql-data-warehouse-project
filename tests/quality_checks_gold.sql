@@ -42,3 +42,7 @@ FROM gold.dim_products
 GROUP BY product_key
 HAVING COUNT(*) > 1;
 
+-- =====================================================================
+-- Checking 'gold.fact_sales'
+-- =====================================================================
+-- Check the data model connectivity between fact and dimensions
